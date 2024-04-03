@@ -5,6 +5,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  /* --primary_color: #EBA487; */
+  --primary_color: #50C878;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -5553,6 +5555,11 @@ button.bg-dark:focus {
   display: -ms-flexbox !important;
   display: flex !important; }
 
+  .skill-mf {
+    margin-top: 50px;
+  }
+
+
 .d-inline-flex {
   display: -webkit-inline-box !important;
   display: -ms-inline-flexbox !important;
@@ -8162,7 +8169,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #ffbd39; }
+  color: var(--primary_color); }
   a:hover, a:focus {
     text-decoration: none;
     color: #ffbd39;
@@ -8233,7 +8240,7 @@ h1, h2, h3, h4, h5,
         height: 2px;
         bottom: 0;
         left: 0;
-        background: #ffbd39;
+        background: var(--primary_color);
         visibility: visible;
         -webkit-transform: scaleX(0);
         -moz-transform: scaleX(0);
@@ -8284,7 +8291,7 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active {
     background: transparent;
     background: none;
-    color: #ffbd39; }
+    color: var(--primary_color); }
     .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active span:before {
       visibility: visible;
       -webkit-transform: scaleX(1);
@@ -8360,7 +8367,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-link {
       color: #000000 !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
-        color: #ffbd39 !important; }
+        color: var(--primary_color) !important; }
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
       -webkit-transition: .3s all ease-out;
@@ -8535,7 +8542,7 @@ h1, h2, h3, h4, h5,
           font-size: 14px;
           letter-spacing: 3px;
           text-transform: uppercase;
-          color: #ffbd39; }
+          color: var(--primary_color); }
         .owl-carousel.home-slider .slider-item .slider-text .text {
           position: relative;
           z-index: 1; }
@@ -8546,7 +8553,7 @@ h1, h2, h3, h4, h5,
           font-weight: 800; }
           .owl-carousel.home-slider .slider-item .slider-text h1 span {
             font-weight: 800;
-            color: #ffbd39; }
+            color: var(--primary_color); }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               color: #fff;
@@ -8727,13 +8734,13 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #ffbd39;
-    border: 1px solid #ffbd39 !important;
+    background: var(--primary_color);
+    border: 1px solid var(--primary_color) !important;
     color: #000000 !important; }
     .btn.btn-primary:hover {
-      border: 1px solid #ffbd39 !important;
-      background: #ffbd39 !important;
-      color: #000000 !important; }
+      border: 1px solid var(--primary_color) !important;
+      background: var(--primary_color) !important;
+      color: white !important; }
     .btn.btn-primary.btn-outline-primary {
       border: 2px solid #ffbd39 !important;
       background: transparent !important;
@@ -8807,7 +8814,7 @@ h1, h2, h3, h4, h5,
     color: #fff; }
   .ftco-about .counter-wrap .text p span.number {
     font-weight: 600;
-    color: #ffbd39; }
+    color: var(--primary_color); }
 
 .resume-wrap {
   width: 100%;
@@ -8821,7 +8828,7 @@ h1, h2, h3, h4, h5,
   .resume-wrap .date {
     font-weight: 900;
     font-size: 26px;
-    color: #ffbd39; }
+    color: var(--primary_color); }
   .resume-wrap h2 {
     font-size: 26px; }
   .resume-wrap .position {
@@ -8942,7 +8949,7 @@ h1, h2, h3, h4, h5,
     font-size: 40px;
     font-weight: 900; }
     .ftco-hireme h2 span {
-      color: #ffbd39; }
+      color: var(--primary_color); }
 
 @media (min-width: 992px) {
   .margin-top {
@@ -9288,7 +9295,7 @@ textarea.form-control {
 .ftco-counter .text strong.number {
   font-weight: 700;
   font-size: 30px;
-  color: #ffbd39;
+  color: var(--primary_color);
   display: block; }
 
 .ftco-counter .text span {
@@ -9339,7 +9346,7 @@ textarea.form-control {
       .blog-entry .text .heading a {
         color: #fff; }
         .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
-          color: #ffbd39; }
+          color: var(--primary_color); }
   .blog-entry .meta {
     display: inline-block;
     margin-right: 5px;
@@ -9421,7 +9428,7 @@ textarea.form-control {
     -ms-border-radius: 50%;
     border-radius: 50%; }
     .contact-section .box .icon span {
-      color: #ffbd39;
+      color: var(--primary_color);
       font-size: 30px; }
   .contact-section .box h3 {
     font-size: 17px;
