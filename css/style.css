@@ -78,6 +78,10 @@ p {
   margin-top: 0;
   margin-bottom: 1rem; }
 
+  .counter-wrap .ptopp {
+    margin-top: 10px;
+  }
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -5556,7 +5560,7 @@ button.bg-dark:focus {
   display: flex !important; }
 
   .skill-mf {
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
 
@@ -8807,6 +8811,32 @@ h1, h2, h3, h4, h5,
         color: #fff;
         width: 130px; }
 
+        @media screen and (max-width: 600px) {
+
+          .about-details-padding {
+            margin-top: 20px;
+            text-align: center;
+          }
+
+          .about-img {
+            text-align: center;
+          }
+
+          .skill-mf, .ftco-aboutme, .counter-responsive {
+            margin-left: 20px;
+            margin-right: 20px;
+          }
+
+          .img-responsive {
+            margin-bottom: 170px;
+          }
+
+          .about-me-res {
+            margin-top: 80px;
+          }
+
+        }
+
 .ftco-about .counter-wrap .text p {
   font-size: 20px; }
   .ftco-about .counter-wrap .text p span {
@@ -9085,12 +9115,48 @@ textarea.form-control {
   .about-author .desc h3 {
     font-size: 24px; }
 
+    .ftco-section .ftco-section-top1 {
+      margin-top: -20px;
+    }
+
+    .ftco-section .res-top {
+      margin-top: -80px;
+    }
+
+    .ftco-section .ftco-project-top {
+      margin-top: -30px;
+    }
+
+    .ftco-project-top .d-flex-project-top {
+      margin-top: -50px;
+    }
+
+    .ftco-achievements {
+      margin-top: -30px;
+    }
+
+    .ftco-contact-top {
+      margin-top: -10px;
+    }
+
+    /* .ftco-copyright-footer .container {
+      margin-top: 100px;
+    } */
+
 .ftco-section {
   padding: 7em 0;
+  /* padding-top: 7em;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px; */
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
       padding: 6em 0; } }
+
+      .ftco-section .overlay {
+        margin-top: 30px;
+      }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
