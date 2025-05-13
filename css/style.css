@@ -6,7 +6,8 @@
  */
 :root {
   /* --primary_color: #EBA487; */
-  --primary_color: #50C878;
+  /*--primary_color: #768aa7;*/
+  --primary_color: #9aa4cd;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -884,7 +885,7 @@ pre {
 .underline {
   width: 100%;
   height: 4px;
-  background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(244, 244, 125) 20%,rgb(238, 238, 36) 50%, #ffbd39 100%);
+  background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, #9aa4cd 20%, #9aa4cd 50%, #9aa4cd 100%);
   margin-top: 5px;
   opacity: 50%; }
   .col-md-1 {
